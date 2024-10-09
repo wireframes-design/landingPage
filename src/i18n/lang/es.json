@@ -1,0 +1,15 @@
+{
+  "header": {
+    "dashboard": "Dashboard",
+    "jobs": "Jobs",
+    "applicants": "Applicants"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+
+  "home":{
+    "subtitle" :"The wizards of this new era."
+  }
+}

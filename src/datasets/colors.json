@@ -1,0 +1,261 @@
+[
+  {
+    "light_color": [
+      {
+        "id": 1,
+        "color_name": "background",
+        "color_code": "#ffffff",
+        "hsl_code": "0 0% 100%"
+      },
+      {
+        "id": 2,
+        "color_name": "foreground",
+        "color_code": "#0a0a0a",
+        "hsl_code": "0 0% 3.9%"
+      },
+      {
+        "id": 3,
+        "color_name": "card",
+        "color_code": "#ffffff",
+        "hsl_code": "0 0% 100%"
+      },
+      {
+        "id": 4,
+        "color_name": "card-foreground",
+        "color_code": "#0a0a0a",
+        "hsl_code": "0 0% 3.9%"
+      },
+      {
+        "id": 5,
+        "color_name": "popover",
+        "color_code": "#ffffff",
+        "hsl_code": "0 0% 100%"
+      },
+      {
+        "id": 6,
+        "color_name": "popover-foreground",
+        "color_code": "#0a0a0a",
+        "hsl_code": "0 0% 3.9%"
+      },
+      {
+        "id": 7,
+        "color_name": "primary",
+        "color_code": "#b20000",
+        "hsl_code": "0 72.2% 50.6%"
+      },
+      {
+        "id": 8,
+        "color_name": "primary-foreground",
+        "color_code": "#ffe5e5",
+        "hsl_code": "0 85.7% 97.3%"
+      },
+      {
+        "id": 9,
+        "color_name": "secondary",
+        "color_code": "#f4f4f4",
+        "hsl_code": "0 0% 96.1%"
+      },
+      {
+        "id": 10,
+        "color_name": "secondary-foreground",
+        "color_code": "#171717",
+        "hsl_code": "0 0% 9%"
+      },
+      {
+        "id": 11,
+        "color_name": "muted",
+        "color_code": "#f4f4f4",
+        "hsl_code": "0 0% 96.1%"
+      },
+      {
+        "id": 12,
+        "color_name": "muted-foreground",
+        "color_code": "#737373",
+        "hsl_code": "0 0% 45.1%"
+      },
+      {
+        "id": 13,
+        "color_name": "accent",
+        "color_code": "#f4f4f4",
+        "hsl_code": "0 0% 96.1%"
+      },
+      {
+        "id": 14,
+        "color_name": "accent-foreground",
+        "color_code": "#171717",
+        "hsl_code": "0 0% 9%"
+      },
+      {
+        "id": 15,
+        "color_name": "destructive",
+        "color_code": "#d30000",
+        "hsl_code": "0 84.2% 60.2%"
+      },
+      {
+        "id": 16,
+        "color_name": "destructive-foreground",
+        "color_code": "#fafafa",
+        "hsl_code": "0 0% 98%"
+      },
+      {
+        "id": 17,
+        "color_name": "border",
+        "color_code": "#e4e4e4",
+        "hsl_code": "0 0% 89.8%"
+      },
+      {
+        "id": 18,
+        "color_name": "input",
+        "color_code": "#e4e4e4",
+        "hsl_code": "0 0% 89.8%"
+      },
+      {
+        "id": 19,
+        "color_name": "ring",
+        "color_code": "#b20000",
+        "hsl_code": "0 72.2% 50.6%"
+      },
+      {
+        "id": 20,
+        "color_name": "section-one",
+        "color_code": "#ffffff",
+        "hsl_code": "0 0% 100%"
+      },
+      {
+        "id": 21,
+        "color_name": "section-two",
+        "color_code": "#0a0a0a",
+        "hsl_code": "0 0% 3.9%"
+      },
+      {
+        "id": 22,
+        "color_name": "text-color-one",
+        "color_code": "#0a0a0a",
+        "hsl_code": "0 0% 3.9%"
+      },
+      {
+        "id": 23,
+        "color_name": "text-color-two",
+        "color_code": "#ffffff",
+        "hsl_code": "0 0% 100%"
+      }
+    ],
+    "dark_colors": [
+      {
+        "id": 1,
+        "color_name": "background",
+        "color_code": "#0a0a0a"
+      },
+      {
+        "id": 2,
+        "color_name": "foreground",
+        "color_code": "#fafafa"
+      },
+      {
+        "id": 3,
+        "color_name": "card",
+        "color_code": "#0a0a0a"
+      },
+      {
+        "id": 4,
+        "color_name": "card-foreground",
+        "color_code": "#fafafa"
+      },
+      {
+        "id": 5,
+        "color_name": "popover",
+        "color_code": "#0a0a0a"
+      },
+      {
+        "id": 6,
+        "color_name": "popover-foreground",
+        "color_code": "#fafafa"
+      },
+      {
+        "id": 7,
+        "color_name": "primary",
+        "color_code": "#b20000"
+      },
+      {
+        "id": 8,
+        "color_name": "primary-foreground",
+        "color_code": "#ffe5e5"
+      },
+      {
+        "id": 9,
+        "color_name": "secondary",
+        "color_code": "#262626"
+      },
+      {
+        "id": 10,
+        "color_name": "secondary-foreground",
+        "color_code": "#fafafa"
+      },
+      {
+        "id": 11,
+        "color_name": "muted",
+        "color_code": "#262626"
+      },
+      {
+        "id": 12,
+        "color_name": "muted-foreground",
+        "color_code": "#a2a2a2"
+      },
+      {
+        "id": 13,
+        "color_name": "accent",
+        "color_code": "#262626"
+      },
+      {
+        "id": 14,
+        "color_name": "accent-foreground",
+        "color_code": "#fafafa"
+      },
+      {
+        "id": 15,
+        "color_name": "destructive",
+        "color_code": "#4d0000"
+      },
+      {
+        "id": 16,
+        "color_name": "destructive-foreground",
+        "color_code": "#fafafa"
+      },
+      {
+        "id": 17,
+        "color_name": "border",
+        "color_code": "#262626"
+      },
+      {
+        "id": 18,
+        "color_name": "input",
+        "color_code": "#262626"
+      },
+      {
+        "id": 19,
+        "color_name": "ring",
+        "color_code": "#b20000"
+      },
+      {
+        "id": 20,
+        "color_name": "section-one",
+        "color_code": "#0a0a0a"
+      },
+      {
+        "id": 21,
+        "color_name": "section-two",
+        "color_code": "#ffffff"
+      },
+      {
+        "id": 22,
+        "color_name": "text-color-one",
+        "color_code": "#ffffff"
+      },
+      {
+        "id": 23,
+        "color_name": "text-color-two",
+        "color_code": "#0a0a0a"
+      }
+    ]
+  }
+]

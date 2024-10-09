@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to React",
+    "slug": "introduction_to_react",
+    "author": "John Doe",
+    "image": "https://media.istockphoto.com/id/1216533680/vector/personal-blog-promotion-and-influencer-marketing.jpg?s=2048x2048&w=is&k=20&c=9mugS8Dk3Zz1jPbWtgS4g59cW5PATntZPWcFvBNhedM=",
+    "light_image": "https://media.istockphoto.com/id/1216533680/vector/personal-blog-promotion-and-influencer-marketing.jpg?s=2048x2048&w=is&k=20&c=9mugS8Dk3Zz1jPbWtgS4g59cW5PATntZPWcFvBNhedM=",
+    "dark_image": "https://media.istockphoto.com/id/1216533680/vector/personal-blog-promotion-and-influencer-marketing.jpg?s=2048x2048&w=is&k=20&c=9mugS8Dk3Zz1jPbWtgS4g59cW5PATntZPWcFvBNhedM=",
+    "date": "2024-07-12",
+    "short_description": "React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can update and render efficiently in response to data changes. The core principle of React is the virtual DOM, which optimizes updates and improves performance. React components are reusable, making code more maintainable and easier to manage.",
+    "description": "<body><h1 class='text-center mt-4'>Introduction to React</h1><p>React is a powerful JavaScript library for building user interfaces. It was developed by Facebook and has gained immense popularity due to its efficiency and flexibility.</p><h2>What is React?</h2><p>React allows developers to create reusable UI components. These components are self-contained and manage their own state, making it easier to build complex UIs.</p><h2>Why Use React?</h2><p>There are several advantages to using React:</p><ul><li><strong>Component-Based:</strong> React uses a component-based architecture, making code more modular and easier to maintain.</li><li><strong>Virtual DOM:</strong> React uses a virtual DOM for efficient rendering. It updates only the necessary parts of the DOM, resulting in improved performance.</li><li><strong>Declarative:</strong> React uses a declarative approach to define how UI should look. Developers can write simple views for each state in an application, and React will efficiently update and render just the right components when the data changes.</li></ul><h2>Getting Started with React</h2><p>To start using React, you typically set up a development environment using tools like <a href='https://create-react-app.dev/' target='_blank' rel='noopener noreferrer' style='text-decoration: none;'>Create React App</a>. This tool sets up a new React project with a single command.</p><p>Here's a basic example of a React component:</p><h2>Resources for Learning React</h2><p>There are many resources available to learn React:</p><ul><li><a href='https://reactjs.org/docs/getting-started.html' target='_blank' rel='noopener noreferrer' text-decoration: none;'>React Documentation</a>: Official documentation with guides and tutorials.</li><li><a href='https://www.freecodecamp.org/learn/front-end-libraries/react/' target='_blank' rel='noopener noreferrer' style='text-decoration: none;'>FreeCodeCamp React Course</a>: A free course covering React fundamentals.</li><li><a href='https://egghead.io/courses/the-beginner-s-guide-to-react' target='_blank' rel='noopener noreferrer' style='text-decoration: none;'>Egghead.io Beginner's Guide to React</a>: Video tutorials for beginners.</li></ul><h2>Conclusion</h2><p>React has revolutionized front-end development by providing a powerful and efficient way to build user interfaces. Whether you're just starting out or looking to enhance your skills, learning React can open up new possibilities for creating interactive and dynamic web applications.</p><p>Start your journey with React today and explore its endless possibilities!</p><img src='https://blog.logrocket.com/wp-content/uploads/2023/11/react-server-components-comprehensive-guide.png' alt='React Logo' style='border-radius: 2rem; margin-top: 1rem; width: 50%; height: 450px'></body>",
+    "backgroundImage": "/Is_your_web_App_Truly_Mobile_Friendly.jpeg",
+    "categories": [
+      {
+        "technology": "JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "technology": "React",
+        "url": "https://reactjs.org/"
+      },
+      {
+        "technology": "Frontend",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer"
+      },
+      {
+        "technology": "Web Development",
+        "url": "https://www.w3schools.com/whatis/"
+      },
+      {
+        "technology": "UI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+      },
+      {
+        "technology": "Component-Based Architecture",
+        "url": "https://reactjs.org/docs/components-and-props.html"
+      },
+      {
+        "technology": "Virtual DOM",
+        "url": "https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom"
+      },
+      {
+        "technology": "Facebook",
+        "url": "https://about.fb.com/"
+      },
+      {
+        "technology": "SEO",
+        "url": "https://moz.com/learn/seo/what-is-seo"
+      },
+      {
+        "technology": "Server-Side Rendering",
+        "url": "https://nextjs.org/docs/basic-features/pages#server-side-rendering"
+      },
+      {
+        "technology": "Community Support",
+        "url": "https://reactjs.org/community/support.html"
+      },
+      {
+        "technology": "Reusable Components",
+        "url": "https://reactjs.org/docs/components-and-props.html"
+      }
+    ],
+    "isDisable": true,
+    "isImageOnly": false
+  },
+  {
+    "id": 2,
+    "title": "Understanding State and Props",
+    "slug": "understanding_state_and_props",
+    "author": "Jane Smith",
+    "image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "light_image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "dark_image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "date": "2024-07-12",
+    "short_description": "State and props are two of the most important concepts in React. State is an object that represents the parts of an app that can change. Each component can maintain its own state, which allows for interactive and dynamic user interfaces. Props, on the other hand, are used to pass data from one component to another. They are read-only and cannot be modified by the receiving component.",
+    "description": "<p>State and props are two of the most important concepts in React. State is an object that represents the parts of an app that can change. Each component can maintain its own state, which allows for interactive and dynamic user interfaces. Props, on the other hand, are used to pass data from one component to another. They are read-only and cannot be modified by the receiving component. Understanding how to use state and props effectively is key to building React applications. State is usually initialized in the constructor of a class component or through the useState hook in functional components. Props are passed to a component similarly to how attributes are passed to HTML elements. They allow for a unidirectional data flow, which makes the app predictable and easier to debug. Managing state efficiently can improve the performance and scalability of a React application.</p>",
+    "backgroundImage": "https://i.pinimg.com/564x/84/76/a5/8476a5bb0504a0a0cb1150d9120a6a89.jpg",
+    "categories": [
+      {
+        "technology": "React",
+        "url": "https://reactjs.org/"
+      },
+      {
+        "technology": "State Management",
+        "url": "https://redux.js.org/"
+      },
+      {
+        "technology": "Frontend",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer"
+      },
+      {
+        "technology": "Props",
+        "url": "https://reactjs.org/docs/components-and-props.html"
+      },
+      {
+        "technology": "Component State",
+        "url": "https://reactjs.org/docs/state-and-lifecycle.html"
+      },
+      {
+        "technology": "Dynamic UI",
+        "url": "https://reactjs.org/docs/hooks-state.html"
+      },
+      {
+        "technology": "Unidirectional Data Flow",
+        "url": "https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-stateful-components"
+      },
+      {
+        "technology": "Class Components",
+        "url": "https://reactjs.org/docs/react-component.html"
+      },
+      {
+        "technology": "Functional Components",
+        "url": "https://reactjs.org/docs/components-and-props.html#function-and-class-components"
+      },
+      {
+        "technology": "Hooks",
+        "url": "https://reactjs.org/docs/hooks-intro.html"
+      },
+      {
+        "technology": "Performance",
+        "url": "https://reactjs.org/docs/optimizing-performance.html"
+      },
+      {
+        "technology": "Scalability",
+        "url": "https://reactjs.org/docs/code-splitting.html"
+      }
+    ],
+    "isDisable": true,
+    "isImageOnly": true
+  },
+  {
+    "id": 3,
+    "title": "Getting Started with React Router",
+    "slug": "getting_started_with_react_router",
+    "author": "Emily Johnson",
+    "image": "https://media.istockphoto.com/id/922745190/photo/blogging-blog-concepts-ideas-with-worktable.jpg?s=612x612&w=0&k=20&c=xR2vOmtg-N6Lo6_I269SoM5PXEVRxlgvKxXUBMeMC_A=",
+    "light_image": "https://media.istockphoto.com/id/922745190/photo/blogging-blog-concepts-ideas-with-worktable.jpg?s=612x612&w=0&k=20&c=xR2vOmtg-N6Lo6_I269SoM5PXEVRxlgvKxXUBMeMC_A=",
+    "dark_image": "https://media.istockphoto.com/id/922745190/photo/blogging-blog-concepts-ideas-with-worktable.jpg?s=612x612&w=0&k=20&c=xR2vOmtg-N6Lo6_I269SoM5PXEVRxlgvKxXUBMeMC_A=",
+    "date": "2024-07-12",
+    "short_description": "React Router is a standard library for routing in React. It enables the navigation among different views of various components in a React application, allows changing the browser URL, and keeps the UI in sync with the URL. React Router uses a component-based approach to routing, where the components are mapped to different paths in the application.",
+    "description": "<p>React Router is a standard library for routing in React. It enables the navigation among different views of various components in a React application, allows changing the browser URL, and keeps the UI in sync with the URL. React Router uses a component-based approach to routing, where the components are mapped to different paths in the application. It provides various components like BrowserRouter, Route, Switch, and Link to manage the routing process. The BrowserRouter component is used to wrap the entire application and manage the routing context. The Route component is used to define the routes and the components to be rendered. The Switch component is used to group routes together and render the first match. The Link component is used to navigate between routes. React Router also supports nested routes, dynamic routing, and route guards.</p>",
+    "backgroundImage": "https://i.pinimg.com/564x/84/76/a5/8476a5bb0504a0a0cb1150d9120a6a89.jpg",
+    "categories": [
+      {
+        "technology": "React",
+        "url": "https://reactjs.org/"
+      },
+      {
+        "technology": "Routing",
+        "url": "https://reactrouter.com/web/guides/quick-start"
+      },
+      {
+        "technology": "Frontend",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer"
+      },
+      {
+        "technology": "React Router",
+        "url": "https://reactrouter.com/web/guides/quick-start"
+      },
+      {
+        "technology": "Navigation",
+        "url": "https://reactrouter.com/web/api/NavLink"
+      },
+      {
+        "technology": "URL Management",
+        "url": "https://reactrouter.com/web/api/Route/path-string-string"
+      },
+      {
+        "technology": "UI Sync",
+        "url": "https://reactrouter.com/web/guides/scroll-restoration"
+      },
+      {
+        "technology": "Component-Based Routing",
+        "url": "https://reactrouter.com/web/api/Route"
+      },
+      {
+        "technology": "BrowserRouter",
+        "url": "https://reactrouter.com/web/api/BrowserRouter"
+      },
+      {
+        "technology": "Route",
+        "url": "https://reactrouter.com/web/api/Route"
+      },
+      {
+        "technology": "Switch",
+        "url": "https://reactrouter.com/web/api/Switch"
+      },
+      {
+        "technology": "Link",
+        "url": "https://reactrouter.com/web/api/Link"
+      }
+    ],
+    "isDisable": true,
+    "isImageOnly": true
+  },
+  {
+    "id": 4,
+    "title": "Managing State with Redux",
+    "slug": "managing_state_with_redux",
+    "author": "Michael Brown",
+    "image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "light_image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "dark_image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "date": "2024-07-12",
+    "short_description": "Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments, and are easy to test. Redux is often used with React but can be used with any other JavaScript framework or library. The core principle of Redux is a single source of truth, where the entire state of an application is stored in a single object.",
+    "description": "<p>Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments, and are easy to test. Redux is often used with React but can be used with any other JavaScript framework or library. The core principle of Redux is a single source of truth, where the entire state of an application is stored in a single object. This state is read-only and can only be changed by dispatching actions. Actions are plain JavaScript objects that describe what happened. Reducers are functions that specify how the state changes in response to an action. The createStore function is used to create a Redux store, which holds the state of the application. Redux also provides middleware to handle side effects, such as asynchronous actions and logging. The Redux DevTools extension is a powerful tool for debugging and inspecting the state of a Redux application.</p>",
+    "backgroundImage": "https://i.pinimg.com/564x/84/76/a5/8476a5bb0504a0a0cb1150d9120a6a89.jpg",
+    "categories": [
+      {
+        "technology": "React",
+        "url": "https://reactjs.org/"
+      },
+      {
+        "technology": "Redux",
+        "url": "https://redux.js.org/"
+      },
+      {
+        "technology": "State Management",
+        "url": "https://redux.js.org/introduction/core-concepts"
+      },
+      {
+        "technology": "JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "technology": "Single Source of Truth",
+        "url": "https://redux.js.org/introduction/core-concepts#single-source-of-truth"
+      },
+      {
+        "technology": "Actions",
+        "url": "https://redux.js.org/basics/actions"
+      },
+      {
+        "technology": "Reducers",
+        "url": "https://redux.js.org/basics/reducers"
+      },
+      {
+        "technology": "Store",
+        "url": "https://redux.js.org/basics/store"
+      },
+      {
+        "technology": "Middleware",
+        "url": "https://redux.js.org/advanced/middleware"
+      },
+      {
+        "technology": "Asynchronous Actions",
+        "url": "https://redux.js.org/advanced/async-actions"
+      },
+      {
+        "technology": "Logging",
+        "url": "https://redux.js.org/recipes/debugging"
+      },
+      {
+        "technology": "DevTools",
+        "url": "https://redux.js.org/usage/debugging#developer-tools"
+      }
+    ],
+    "isDisable": true,
+    "isImageOnly": true
+  },
+  {
+    "id": 5,
+    "title": "Building Maps with React Leaflet",
+    "slug": "building_maps_with_react_leaflet",
+    "author": "Chris Lee",
+    "image": "https://media.istockphoto.com/id/922745190/photo/blogging-blog-concepts-ideas-with-worktable.jpg?s=612x612&w=0&k=20&c=xR2vOmtg-N6Lo6_I269SoM5PXEVRxlgvKxXUBMeMC_A=",
+    "light_image": "https://media.istockphoto.com/id/922745190/photo/blogging-blog-concepts-ideas-with-worktable.jpg?s=612x612&w=0&k=20&c=xR2vOmtg-N6Lo6_I269SoM5PXEVRxlgvKxXUBMeMC_A=",
+    "dark_image": "https://media.istockphoto.com/id/922745190/photo/blogging-blog-concepts-ideas-with-worktable.jpg?s=612x612&w=0&k=20&c=xR2vOmtg-N6Lo6_I269SoM5PXEVRxlgvKxXUBMeMC_A=",
+    "date": "2024-07-12",
+    "short_description": "React Leaflet is a library that provides binding between React and Leaflet. Leaflet is an open-source JavaScript library for mobile-friendly interactive maps. React Leaflet allows you to use Leaflet's features and plugins in your React applications. It provides a set of React components that correspond to Leaflet layers and controls.",
+    "description": "<p>React Leaflet is a library that provides binding between React and Leaflet. Leaflet is an open-source JavaScript library for mobile-friendly interactive maps. React Leaflet allows you to use Leaflet's features and plugins in your React applications. It provides a set of React components that correspond to Leaflet layers and controls. For example, the MapContainer component is used to create a map, and the TileLayer component is used to add a tile layer to the map. Other components like Marker, Popup, and Circle can be used to add markers, popups, and circles to the map. React Leaflet also supports events, which can be used to handle user interactions with the map. The library is highly customizable and can be extended with custom components and plugins. React Leaflet makes it easy to integrate maps into your React applications and create interactive and dynamic map-based user interfaces.</p>",
+    "backgroundImage": "https://i.pinimg.com/564x/84/76/a5/8476a5bb0504a0a0cb1150d9120a6a89.jpg",
+    "categories": [
+      {
+        "technology": "React",
+        "url": "https://reactjs.org/"
+      },
+      {
+        "technology": "Leaflet",
+        "url": "https://leafletjs.com/"
+      },
+      {
+        "technology": "Mapping",
+        "url": "https://leafletjs.com/reference-1.7.1.html"
+      },
+      {
+        "technology": "JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "technology": "Interactive Maps",
+        "url": "https://leafletjs.com/examples/quick-start/"
+      },
+      {
+        "technology": "Map Layers",
+        "url": "https://leafletjs.com/reference-1.7.1.html#map-layers"
+      },
+      {
+        "technology": "Map Controls",
+        "url": "https://leafletjs.com/reference-1.7.1.html#control-layers"
+      },
+      {
+        "technology": "Map Events",
+        "url": "https://leafletjs.com/reference-1.7.1.html#events"
+      },
+      {
+        "technology": "Custom Components",
+        "url": "https://leafletjs.com/reference-1.7.1.html#control"
+      },
+      {
+        "technology": "Plugins",
+        "url": "https://leafletjs.com/plugins.html"
+      },
+      {
+        "technology": "Geolocation",
+        "url": "https://leafletjs.com/reference-1.7.1.html#geolocation"
+      },
+      {
+        "technology": "Dynamic Maps",
+        "url": "https://leafletjs.com/examples/zoom-levels/"
+      }
+    ],
+    "isDisable": true,
+    "isImageOnly": true
+  },
+  {
+    "id": 6,
+    "title": "Optimizing Performance in React",
+    "slug": "optimizing_performance_in_react",
+    "author": "Laura Martinez",
+    "image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "light_image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "dark_image": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg",
+    "date": "2024-07-12",
+    "short_description": "Optimizing performance in React applications is crucial for a smooth user experience. React provides several techniques and tools to improve performance. One of the most important techniques is to minimize the number of re-renders by using the shouldComponentUpdate lifecycle method or the React.memo higher-order component.",
+    "description": "<p>Optimizing performance in React applications is crucial for a smooth user experience. React provides several techniques and tools to improve performance. One of the most important techniques is to minimize the number of re-renders by using the shouldComponentUpdate lifecycle method or the React.memo higher-order component. React's virtual DOM also helps improve performance by batching updates and reducing the number of DOM manipulations. The use of code splitting and lazy loading can also improve performance by reducing the initial load time of the application. React's Profiler API can be used to measure the performance of components and identify bottlenecks. Other techniques like memoization, using immutable data structures, and avoiding unnecessary state updates can also help optimize performance. Optimizing performance in React applications requires a combination of best practices, tools, and techniques.</p>",
+    "backgroundImage": "https://i.pinimg.com/564x/84/76/a5/8476a5bb0504a0a0cb1150d9120a6a89.jpg",
+    "categories": [
+      {
+        "technology": "React",
+        "url": "https://reactjs.org/"
+      },
+      {
+        "technology": "Performance",
+        "url": "https://reactjs.org/docs/optimizing-performance.html"
+      },
+      {
+        "technology": "Frontend",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer"
+      },
+      {
+        "technology": "Optimization",
+        "url": "https://reactjs.org/docs/optimizing-performance.html"
+      },
+      {
+        "technology": "Virtual DOM",
+        "url": "https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom"
+      },
+      {
+        "technology": "Re-Renders",
+        "url": "https://reactjs.org/docs/reconciliation.html"
+      },
+      {
+        "technology": "Memoization",
+        "url": "https://reactjs.org/docs/react-api.html#reactmemo"
+      },
+      {
+        "technology": "Code Splitting",
+        "url": "https://reactjs.org/docs/code-splitting.html"
+      },
+      {
+        "technology": "Lazy Loading",
+        "url": "https://reactjs.org/docs/code-splitting.html#route-based-splitting"
+      },
+      {
+        "technology": "Profiler API",
+        "url": "https://reactjs.org/docs/profiler.html"
+      },
+      {
+        "technology": "Immutable Data",
+        "url": "https://immutable-js.github.io/immutable-js/"
+      },
+      {
+        "technology": "Best Practices",
+        "url": "https://reactjs.org/docs/react-api.html#reactmemo"
+      }
+    ],
+    "isDisable": true,
+    "isImageOnly": false
+  }
+]

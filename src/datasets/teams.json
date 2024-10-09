@@ -1,0 +1,26 @@
+[
+  {
+    "id": 6,
+    "name": "Project Manager",
+    "profession": "Project Manager",
+    "description": "Project Manager is an experienced product manager with a talent for transforming ideas into successful products. He excels in guiding product development from concept to launch, ensuring alignment with market needs and business goals",
+    "buttonText": "Read More",
+    "profileImage": ""
+  },
+  {
+    "id": 2,
+    "name": "Full Stack Developer",
+    "profession": "Full Stack Developer",
+    "description": "Full Stack Developer is an accomplished software engineer with 7 years of experience in full-stack development, adept at leading complex projects and integrating front-end and back-end technologies into scalable, robust applications.",
+    "buttonText": "Read More",
+    "profileImage": ""
+  },
+  {
+    "id": 4,
+    "name": "Flutter Developer",
+    "profession": "Flutter Developer",
+    "description": "Flutter Developer is a skilled software engineer with 4 years of experience in Flutter development. He has a strong background in building robust, cross-platform mobile applications that deliver seamless user experiences.",
+    "buttonText": "Read More",
+    "profileImage": "https://firebasestorage.googleapis.com/v0/b/vani-5456e.appspot.com/o/teams%2FrohanPro.jpg?alt=media&token=9a7d2f24-e69d-4266-b3ca-f382b2b2395d"
+  }
+]

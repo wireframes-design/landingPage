@@ -1,0 +1,98 @@
+{
+  "header": {
+    "home": "Home",
+    "aboutUs" : "About Us",
+    "dashboard": "Dashboard",
+    "jobs": "Jobs",
+    "applicants": "Applicants",
+    "services" : "Services",
+    "contactUs" : "Contact Us"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2024 Vani. All rights reserved."
+  },
+
+  "home":{
+    "subtitle" :"The wizards of this new era."
+  },
+
+  "ourExpertise":{
+    "title" : "Our Expertise",
+    "subtitle" : "We are a one-stop solution for all your IT related doubts and problem. Be it a website for your business or a mobile application or be it some core server related technical issue we are here to assist you with anything. Our team is technically sound and experienced to deal with any challenges you face in your business. We have a wide range of services to offer and some elegant products for our customers."
+  },
+
+  "ourServices":[
+    {
+      "title" : "Web Application",
+      "shortDescription" : "We have built websites from a small static website to complete web applications like event management or e-commerce."
+    },
+    {
+      "title" : "Blockchain Application",
+      "shortDescription" : "Blockchain technology has transformed industries, offering secure, transparent, and decentralized solutions. At Vani, we specialize in blockchain development to drive innovation and elevate your business."
+    },
+    {
+      "title" : "Mobile Application",
+      "shortDescription" : "We have good experience in this domain, as we have successfully developed various applications for our clients and ourselves."
+    },
+    {
+      "title" : "Server Hosting",
+      "shortDescription" : "We are here to assist you to host your website or project on a server. Also, we do maintenance work for existing projects."
+    },
+    {
+      "title" : "SEO Services",
+      "shortDescription" : "Search engine optimization comes into play to put you up the line from billions of websites on the internet."
+    },
+    {
+      "title" : "Maintenance Support",
+      "shortDescription" : "We do maintenance work for existing projects things like upgrading technology stack or migrating from one server to another etc."
+    }
+  ],
+  
+  "contactUs":{
+    "title" : "LET’S WORK TOGETHER",
+    "subtitle" : "Wanna get in touch? Let’s talk",
+    "description" : "We offer exceptional services tailored to a wide range of businesses that want to improve the effectiveness of their digital marketing activities with discernible returns on investment. We aim to get back to all enquiries rapidly.",
+    "connectWithUs": "Interested in working with us? Contact us",
+    "tagline": "We make the dream world into reality"
+  },
+
+  "aboutUs":{
+    "title" : "About Us",
+    "subtitle" : "Vani, a leading privately held firm specializing in top-notch digital solutions for businesses of all sizes. Our team of experts is driven by a passion for technology and an unwavering commitment to excellence, making us the premier choice for website development, web application development, mobile application development, and SEO services."
+  },
+
+  "services":[
+    {
+      "title" : "Web Application",
+      "description" : "At Vani, we create powerful, user-friendly web applications tailored to your business needs. Our expert team leverages the latest technologies to build secure, scalable, and easy-to-maintain solutions. From planning to deployment, we ensure flawless performance and provide ongoing support. Choose us for innovative, responsive, and secure web applications that grow with your business. Contact us today to discuss your web application development needs."
+    },
+    {
+      "title" : "Blockchain Application",
+      "description":"We specialize in developing secure and transparent blockchain applications tailored to your business needs. Our expert team leverages cutting-edge blockchain technology to build solutions that enhance trust, security, and efficiency. From smart contracts to decentralized apps, we ensure seamless integration and robust performance. Choose us for innovative blockchain applications that drive your business forward. Contact us today to explore your blockchain development opportunities."
+    },
+    {
+      "title" : "Mobile Application",
+      "description": "Transform your business with cutting-edge mobile applications from Vani. Our expert team specializes in creating custom, user-friendly apps for both iOS and Android platforms. We ensure top-notch performance and security, providing comprehensive support from concept to launch. Engage and delight your users with innovative mobile solutions tailored to your business needs. Contact us today to bring your mobile app vision to life."
+    },
+    {
+      "title" : "Server Hosting",
+      "description": "At Vani, we provide comprehensive server hosting solutions tailored to meet the unique needs of your business. Our server hosting services ensure high performance, reliability, and security for your applications and websites. We prioritize security, implementing advanced measures to protect your data and applications from threats and vulnerabilities. We offer competitive pricing for our server hosting services, ensuring you get the best value for your investment."
+    },
+    {
+      "title" : "SEO Services",
+      "description": "At Vani, we offer comprehensive SEO services designed to boost your online visibility and drive organic traffic to your website. Our experienced team employs proven strategies to optimize your site for search engines, improving rankings and increasing your site's authority. From keyword research to on-page and off-page optimization, we tailor our approach to meet your specific business goals. Partner with us to achieve sustainable growth and maximize your digital presence. Contact us today to learn more about our SEO services and start attracting more customers online."
+    },
+    {
+      "title" : "Maintenance Support",
+      "description": "Ensure the smooth operation of your systems with Vani's comprehensive maintenance support. We offer proactive maintenance solutions tailored to keep your technology running at peak performance. Our expert team handles regular updates, troubleshooting, and system optimizations to minimize downtime and maximize productivity. Trust us to provide reliable support that aligns with your business needs. Contact us today to discuss how our maintenance services can benefit your organization."
+    }
+  ],
+  "getInTouch": {
+    "title" : "Get in touch",
+    "subtitle" : "Say something, we'd love to chat.",
+    "moreInfo": "If you want to inquire more about our service please use the contact form."
+  }
+
+}
