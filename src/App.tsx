@@ -25,6 +25,7 @@ import LoginPage from "@/page-sections/authentication/login";
 import SignUpPage from "@/page-sections/authentication/sign-up";
 import ForgotPasswordPage from "@/page-sections/authentication/forgot-password";
 import Index from "@/page-sections";
+import { getToken, onMessage } from "firebase/messaging";
 const { VITE_APP_VAPID_KEY } = import.meta.env;
 
 const router = createBrowserRouter(
@@ -51,33 +52,33 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
-  // async function requestPermission() {
-  //   //requesting permission using Notification API
-  //   const permission = await Notification.requestPermission();
+  async function requestPermission() {
+    //requesting permission using Notification API
+    const permission = await Notification.requestPermission();
 
-  //   if (permission === "granted") {
-  //     const token = await getToken(messaging, {
-  //       vapidKey: VITE_APP_VAPID_KEY,
-  //     });
+    if (permission === "granted") {
+      const token = await getToken(messaging, {
+        vapidKey: VITE_APP_VAPID_KEY,
+      });
 
-  //     //We can send token to server
-  //     console.log("Token generated : ", token);
-  //   } else if (permission === "denied") {
-  //     //notifications are blocked
-  //     alert("You denied for the notification");
-  //   }
-  // }
+      //We can send token to server
+      console.log("Token generated : ", token);
+    } else if (permission === "denied") {
+      //notifications are blocked
+      alert("You denied for the notification");
+    }
+  }
 
   // open if you need to notification
-  // useEffect(() => {
-  //   requestPermission();
-  // }, []);
+  useEffect(() => {
+    requestPermission();
+  }, []);
 
-  // onMessage(messaging, (payload) => {
-  //   console.log(" i am getting this message ");
+  onMessage(messaging, (payload) => {
+    console.log(" i am getting this message ");
 
-  //   console.log(payload);
-  // });
+    console.log(payload);
+  });
 
   return (
     <>

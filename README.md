@@ -1,33 +1,86 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Authors
 
-Currently, two official plugins are available:
+- [Kaliba Enterprises Private Limited](https://github.com/kaliba-enterprises)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+**Client:** React, TailwindCSS
+
+**Server:** Firebase
+
+
+## Installation
+
+## Clone the repository
+```bash
+  git clone <repository name>
+  cd my-project
+```
+    
+## Install All Packages
+```bash
+  yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Firbase Setup
 
+Step 1: Create a Firebase Project
 
+    - Go to the Firebase Console.
+
+    - Click on Add Project.
+
+    - Enter the project name, then click Continue.
+    
+    - Enable or disable Google Analytics as per your requirement, then click Continue.
+
+    - Once the project is created, click Continue to move to the Firebase dashboard.
+
+Step 2: Register Your App (Web)
+
+    - In the Firebase console, click the Web icon (</>).
+
+    - Enter a nickname for your app and click Register App.
+
+    - Firebase will provide a configuration object containing API keys and other project details.
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`VITE_RECAPTCHA_SITE_KEY`=your-recaptcha-site-key
+
+`VITE_APP_API_KEY`= "your-firebase-api-key"
+
+`VITE_APP_AUTH_DOMAIN`= "your-firebase-auth-domain"
+
+`VITE_APP_PROJECT_ID`= "your-firbase-project-id"
+
+`VITE_APP_STORAGE_BUCKET`= "your-firebase-storage-bucket"
+
+`VITE_APP_MESSAGING_SENDER_ID`= "your-firebase-sender-id"
+
+`VITE_APP_APP_ID`= "your-firebase-app-id"
+
+`VITE_APP_MEASUREMENT_ID`= "your-firebase-measurement-id"
+
+`VITE_APP_VAPID_KEY`= "your-firebase-message-id"
+
+## Add Firebase Configuration
+    - Also add firebase configration in 
+    1) Public\firebase-messaging-sw.js
+    2) src\components\ui\chat-section.tsx
+    
+
+## Run Locally
+
+Start the server
+
+```bash
+  yarn start
+```
 
